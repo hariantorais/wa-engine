@@ -5,6 +5,7 @@ module.exports = {
   clientUrl: process.env.CLIENT_URL,
   webhookPath: process.env.WEBHOOK_PATH,
   apiToken: process.env.CLIENT_API_TOKEN,
+  defaultSessionId: process.env.DEFAULT_SESSION_ID,
   sessionDir: "./sessions",
   waConfig: {
     browser: [
