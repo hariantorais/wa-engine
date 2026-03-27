@@ -1,0 +1,37 @@
+# 1. OS Metadata
+.DS_Store
+Thumbs.db
+
+# 2. Node.js Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 3. WhatsApp Sessions (KRUSIAL!)
+# Jangan pernah mengunggah folder sessions ke Git karena berisi login data.
+sessions/
+
+# 4. Environment Variables
+# Berisi API Key, Database password, atau Port sensitif.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 5. Logs
+logs
+*.log
+npm-debug.log*
+
+# 6. IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 7. Production Build (Jika nanti pakai TypeScript/Babel)
+dist/
+build/
