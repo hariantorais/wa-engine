@@ -35,7 +35,7 @@ exports.getQr = (req, res) => {
 exports.send = async (req, res) => {
   const { api_key, receiver, message, image_url } = req.body;
   try {
-    const sessionId = api_key || config.defaultSession;
+    const sessionId = api_key || config.defaultSessionId;
     await waService.sendMessage(sessionId, receiver, message, image_url);
     res.json({
       status: true,
